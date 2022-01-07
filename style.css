@@ -1,0 +1,72 @@
+div {
+    margin: 0.5em;
+}
+
+.gridSystem {
+    display:flex;
+    height:100vh;
+    width:100vw;
+   
+}
+.moveRight {
+    display:flex;
+    flex-direction: column;
+    flex:0 1 auto;
+    flex-grow: 1;
+}
+
+.cards {
+    display:flex;
+    flex:0 0 auto;
+}
+
+.tallRect {
+    display:flex;
+    flex-direction:column;
+    background-color:  lightgray;
+    flex:0 0 300px;
+    /* height: 60em;
+    width: 15em; */
+}
+
+.fallenRectOuter {
+    background-color: lightgray;
+    /* height: 80em;
+    width: 45em; */
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+   
+}
+
+.fallenRectInner {
+    background-color: darkgray;
+    /* height: 27em;
+    width: 35em; */
+    align-self: center;
+    margin-bottom: 3em;
+    
+}
+
+.Reviews {
+    background-color: lightgray;
+    flex:1;
+    /* height: 20em;
+    width: 15em; */
+}
+
+.avRat {
+    background-color: lightgray;
+    flex:1;
+
+    /* height: 20em;
+    width: 15em; */
+}
+
+.sentAnal {
+    background-color: lightgray;
+    flex:1;
+    /* height: 20em;
+    width: 15em; */
+
+}

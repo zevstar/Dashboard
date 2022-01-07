@@ -1,0 +1,40 @@
+style.css:
+
+.gridSystem{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:200px 200px 200px;
+    border: 3px solid black; 
+}
+
+app.js:
+
+
+
+class Boxes extends React.Component{
+    render(){
+        return(
+            <div className = "gridSystem">
+                <div class = "item1">Dashboard</div>
+                <div class = "item2">Reviews</div>
+                <div class = "item3">Average Ratings</div>
+                <div class = "item4">Sentiment Analysis</div>
+                <div class = "item5">Dashboard</div>
+                <div class = "item6">Website Visitors</div>
+                <div class = "item7">Website Visitors</div>
+                <div class = "item8">Website Visitors</div>
+                <div class = "item9">Dashboard</div>
+                <div class = "item10">Reviews</div>
+                <div class = "item11">Average Ratings</div>
+                <div class = "item12">Sentiment Analysis</div>
+
+
+            </div>
+        )
+    }
+}
+
+ReactDOM.render(
+  <Boxes />,
+  document.querySelector("#container")  
+)
