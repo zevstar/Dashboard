@@ -41,10 +41,11 @@ div {
 
 .fallenRectInner {
     background-color: darkgray;
-    /* height: 27em;
-    width: 35em; */
+    height: 7em;
+    width: 35em;
     align-self: center;
     margin-bottom: 3em;
+    border: 1px solid black;
     
 }
 

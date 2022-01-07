@@ -38,6 +38,7 @@ class Boxes extends React.Component{
                 <div class="fallenRectOuter">
                     <h2>Website Visitors</h2> <h1>821</h1>
                 <div class="fallenRectInner"></div>
+                    
                 </div>
                     </div> 
             </div>
